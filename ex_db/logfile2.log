@@ -1,0 +1,6 @@
+2023-09-07 12:58:00,297 - tzlocal - DEBUG -Looking up time zone info from registry
+2023-09-07 12:58:00,300 - apscheduler.scheduler - INFO -Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-09-07 12:58:00,301 - apscheduler.scheduler - INFO -Added job "test_interval" to job store "default"
+2023-09-07 12:58:00,301 - apscheduler.scheduler - INFO -Scheduler started
+2023-09-07 12:58:00,301 - apscheduler.scheduler - DEBUG -Looking for jobs to run
+2023-09-07 12:58:00,301 - apscheduler.scheduler - DEBUG -Next wakeup is due at 2023-09-07 13:08:00.300430+09:00 (in 599.999003 seconds)

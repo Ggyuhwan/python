@@ -1,0 +1,62 @@
+2023-09-07 10:34:49,640 - root - DEBUG -test
+2023-09-07 10:34:49,656 - root - INFO -info test
+2023-09-07 10:34:49,656 - root - WARNING -warning test
+2023-09-07 10:34:49,656 - root - ERROR -division by zero
+Traceback (most recent call last):
+  File "C:\dev\pythonProject\ex_db\test_logger.py", line 10, in test
+    result = a/b
+ZeroDivisionError: division by zero
+2023-09-07 10:36:05,670 - root - DEBUG -test
+2023-09-07 10:36:05,670 - root - INFO -info test
+2023-09-07 10:36:05,670 - root - WARNING -warning test
+2023-09-07 10:36:05,670 - root - ERROR -division by zero
+Traceback (most recent call last):
+  File "C:\dev\pythonProject\ex_db\test_logger.py", line 10, in test
+    result = a/b
+ZeroDivisionError: division by zero
+2023-09-07 12:43:44,742 - root - DEBUG -테스트
+2023-09-07 12:43:44,742 - root - INFO -마이크테스트
+2023-09-07 12:43:44,742 - root - WARNING -워링!!
+2023-09-07 12:43:44,742 - tzlocal - DEBUG -Looking up time zone info from registry
+2023-09-07 12:43:44,757 - apscheduler.scheduler - INFO -Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-09-07 12:43:44,757 - apscheduler.scheduler - INFO -Added job "test_interval" to job store "default"
+2023-09-07 12:43:44,773 - apscheduler.scheduler - INFO -Scheduler started
+2023-09-07 12:43:44,773 - apscheduler.scheduler - DEBUG -Looking for jobs to run
+2023-09-07 12:43:44,773 - apscheduler.scheduler - DEBUG -Next wakeup is due at 2023-09-07 12:53:44.757821+09:00 (in 599.984498 seconds)
+2023-09-07 12:44:25,212 - root - DEBUG -테스트
+2023-09-07 12:44:25,212 - root - INFO -마이크테스트
+2023-09-07 12:44:25,212 - root - WARNING -워링!!
+2023-09-07 12:44:25,212 - tzlocal - DEBUG -Looking up time zone info from registry
+2023-09-07 12:44:25,212 - apscheduler.scheduler - INFO -Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-09-07 12:44:25,220 - apscheduler.scheduler - INFO -Added job "test_interval" to job store "default"
+2023-09-07 12:44:25,220 - apscheduler.scheduler - INFO -Scheduler started
+2023-09-07 12:44:25,220 - apscheduler.scheduler - DEBUG -Looking for jobs to run
+2023-09-07 12:44:25,220 - apscheduler.scheduler - DEBUG -Next wakeup is due at 2023-09-07 12:54:25.212516+09:00 (in 599.991998 seconds)
+2023-09-07 12:55:15,402 - root - INFO -start !!! 
+2023-09-07 12:55:15,402 - tzlocal - DEBUG -Looking up time zone info from registry
+2023-09-07 12:55:15,405 - apscheduler.scheduler - INFO -Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-09-07 12:55:15,405 - apscheduler.scheduler - INFO -Added job "test_interval" to job store "default"
+2023-09-07 12:55:15,406 - apscheduler.scheduler - INFO -Scheduler started
+2023-09-07 12:55:15,406 - apscheduler.scheduler - DEBUG -Looking for jobs to run
+2023-09-07 12:55:15,406 - apscheduler.scheduler - DEBUG -Next wakeup is due at 2023-09-07 13:05:15.405442+09:00 (in 599.999003 seconds)
+2023-09-07 12:56:23,951 - root - INFO -start !!! 
+2023-09-07 12:56:23,952 - tzlocal - DEBUG -Looking up time zone info from registry
+2023-09-07 12:56:23,954 - apscheduler.scheduler - INFO -Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-09-07 12:56:23,955 - apscheduler.scheduler - INFO -Added job "test_interval" to job store "default"
+2023-09-07 12:56:23,955 - apscheduler.scheduler - INFO -Scheduler started
+2023-09-07 12:56:23,955 - apscheduler.scheduler - DEBUG -Looking for jobs to run
+2023-09-07 12:56:23,955 - apscheduler.scheduler - DEBUG -Next wakeup is due at 2023-09-07 13:06:23.954407+09:00 (in 599.998984 seconds)
+2023-09-07 12:56:47,063 - root - INFO -start !!! 
+2023-09-07 12:56:47,064 - tzlocal - DEBUG -Looking up time zone info from registry
+2023-09-07 12:56:47,066 - apscheduler.scheduler - INFO -Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-09-07 12:56:47,067 - apscheduler.scheduler - INFO -Added job "test_interval" to job store "default"
+2023-09-07 12:56:47,067 - apscheduler.scheduler - INFO -Scheduler started
+2023-09-07 12:56:47,068 - apscheduler.scheduler - DEBUG -Looking for jobs to run
+2023-09-07 12:56:47,068 - apscheduler.scheduler - DEBUG -Next wakeup is due at 2023-09-07 13:06:47.066202+09:00 (in 599.998005 seconds)
+2023-09-07 12:57:28,180 - root - INFO -start !!! 
+2023-09-07 12:57:28,181 - tzlocal - DEBUG -Looking up time zone info from registry
+2023-09-07 12:57:28,183 - apscheduler.scheduler - INFO -Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-09-07 12:57:28,184 - apscheduler.scheduler - INFO -Added job "test_interval" to job store "default"
+2023-09-07 12:57:28,184 - apscheduler.scheduler - INFO -Scheduler started
+2023-09-07 12:57:28,184 - apscheduler.scheduler - DEBUG -Looking for jobs to run
+2023-09-07 12:57:28,184 - apscheduler.scheduler - DEBUG -Next wakeup is due at 2023-09-07 13:07:28.183679+09:00 (in 599.999013 seconds)

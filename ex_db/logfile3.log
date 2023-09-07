@@ -1,0 +1,72 @@
+2023-09-07 12:59:32,506 - root - INFO -start
+2023-09-07 12:59:32,506 - tzlocal - DEBUG -Looking up time zone info from registry
+2023-09-07 12:59:32,509 - apscheduler.scheduler - INFO -Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-09-07 12:59:32,510 - apscheduler.scheduler - INFO -Added job "test_interval" to job store "default"
+2023-09-07 12:59:32,510 - apscheduler.scheduler - INFO -Scheduler started
+2023-09-07 12:59:32,511 - apscheduler.scheduler - DEBUG -Looking for jobs to run
+2023-09-07 12:59:32,511 - apscheduler.scheduler - DEBUG -Next wakeup is due at 2023-09-07 13:09:32.509466+09:00 (in 599.998006 seconds)
+2023-09-07 13:00:15,628 - root - INFO -start
+2023-09-07 13:00:15,629 - tzlocal - DEBUG -Looking up time zone info from registry
+2023-09-07 13:01:02,166 - root - INFO - start
+2023-09-07 13:01:02,166 - tzlocal - DEBUG - Looking up time zone info from registry
+2023-09-07 13:01:02,169 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-09-07 13:01:02,169 - apscheduler.scheduler - INFO - Added job "test_interval" to job store "default"
+2023-09-07 13:01:02,169 - apscheduler.scheduler - INFO - Scheduler started
+2023-09-07 13:01:02,171 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2023-09-07 13:01:02,171 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2023-09-07 13:11:02.168496+09:00 (in 599.997011 seconds)
+root - INFO - start
+tzlocal - DEBUG - Looking up time zone info from registry
+apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+apscheduler.scheduler - INFO - Added job "test_interval" to job store "default"
+apscheduler.scheduler - INFO - Scheduler started
+apscheduler.scheduler - DEBUG - Looking for jobs to run
+apscheduler.scheduler - DEBUG - Next wakeup is due at 2023-09-07 13:11:36.908728+09:00 (in 599.998007 seconds)
+root - INFO - start
+tzlocal - DEBUG - Looking up time zone info from registry
+apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+apscheduler.scheduler - INFO - Added job "test_interval" to job store "default"
+apscheduler.scheduler - INFO - Scheduler started
+apscheduler.scheduler - DEBUG - Looking for jobs to run
+apscheduler.scheduler - DEBUG - Next wakeup is due at 2023-09-07 13:11:43.505697+09:00 (in 599.999003 seconds)
+2023-09-07 13:02:43,848 - root - INFO - start
+2023-09-07 13:02:43,848 - tzlocal - DEBUG - Looking up time zone info from registry
+2023-09-07 13:02:43,850 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-09-07 13:02:43,851 - apscheduler.scheduler - INFO - Added job "test_interval" to job store "default"
+2023-09-07 13:02:43,851 - apscheduler.scheduler - INFO - Scheduler started
+2023-09-07 13:02:43,851 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2023-09-07 13:02:43,851 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2023-09-07 13:12:43.850909+09:00 (in 599.999004 seconds)
+2023-09-07 13:12:43,861 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2023-09-07 13:12:43,865 - apscheduler.executors.default - INFO - Running job "test_interval (trigger: interval[0:10:00], next run at: 2023-09-07 13:12:43 KST)" (scheduled at 2023-09-07 13:12:43.850909+09:00)
+2023-09-07 13:12:43,865 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2023-09-07 13:22:43.850909+09:00 (in 599.985215 seconds)
+2023-09-07 13:12:43,869 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:12:44,046 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=1&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:12:44,089 - apscheduler.executors.default - INFO - Job "test_interval (trigger: interval[0:10:00], next run at: 2023-09-07 13:22:43 KST)" executed successfully
+2023-09-07 13:58:48,199 - root - INFO - start
+2023-09-07 13:58:48,199 - tzlocal - DEBUG - Looking up time zone info from registry
+2023-09-07 13:58:54,798 - root - INFO - start
+2023-09-07 13:58:54,799 - tzlocal - DEBUG - Looking up time zone info from registry
+2023-09-07 13:59:31,830 - root - INFO - start
+2023-09-07 13:59:31,830 - tzlocal - DEBUG - Looking up time zone info from registry
+2023-09-07 13:59:31,832 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-09-07 13:59:31,833 - apscheduler.scheduler - INFO - Added job "test_interval" to job store "default"
+2023-09-07 13:59:31,833 - apscheduler.scheduler - INFO - Scheduler started
+2023-09-07 13:59:31,833 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2023-09-07 13:59:31,833 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2023-09-07 13:59:41.832151+09:00 (in 9.999003 seconds)
+2023-09-07 13:59:41,846 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2023-09-07 13:59:41,849 - apscheduler.executors.default - INFO - Running job "test_interval (trigger: interval[0:00:10], next run at: 2023-09-07 13:59:41 KST)" (scheduled at 2023-09-07 13:59:41.832151+09:00)
+2023-09-07 13:59:41,850 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2023-09-07 13:59:51.832151+09:00 (in 9.981912 seconds)
+2023-09-07 13:59:41,863 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:59:42,058 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=1&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:59:42,089 - apscheduler.executors.default - INFO - Job "test_interval (trigger: interval[0:00:10], next run at: 2023-09-07 13:59:51 KST)" executed successfully
+2023-09-07 13:59:51,850 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2023-09-07 13:59:51,851 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2023-09-07 14:00:01.832151+09:00 (in 9.980771 seconds)
+2023-09-07 13:59:51,852 - apscheduler.executors.default - INFO - Running job "test_interval (trigger: interval[0:00:10], next run at: 2023-09-07 14:00:01 KST)" (scheduled at 2023-09-07 13:59:51.832151+09:00)
+2023-09-07 13:59:51,861 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 13:59:52,041 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=1&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 13:59:52,069 - apscheduler.executors.default - INFO - Job "test_interval (trigger: interval[0:00:10], next run at: 2023-09-07 14:00:01 KST)" executed successfully
+2023-09-07 14:00:01,848 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2023-09-07 14:00:01,850 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2023-09-07 14:00:11.832151+09:00 (in 9.981784 seconds)
+2023-09-07 14:00:01,851 - apscheduler.executors.default - INFO - Running job "test_interval (trigger: interval[0:00:10], next run at: 2023-09-07 14:00:11 KST)" (scheduled at 2023-09-07 14:00:01.832151+09:00)
+2023-09-07 14:00:01,861 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): m.stock.naver.com:443
+2023-09-07 14:00:02,131 - urllib3.connectionpool - DEBUG - https://m.stock.naver.com:443 "GET /api/stocks/marketValue/KOSPI?page=1&pageSize=50 HTTP/1.1" 200 None
+2023-09-07 14:00:02,155 - apscheduler.executors.default - INFO - Job "test_interval (trigger: interval[0:00:10], next run at: 2023-09-07 14:00:11 KST)" executed successfully
