@@ -27,5 +27,5 @@ def test_interval():
          # 종목코드, 종목명, 종가, 변동가 출력
 # log.info("start !!! ")
 sched = BlockingScheduler()
-sched.add_job(test_interval, 'interval', seconds=600)
+sched.add_job(test_interval, 'interval', seconds=10)
 sched.start()

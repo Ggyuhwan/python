@@ -114,3 +114,8 @@ dic['팽수']=[1,2,3,4]
 # python 3.6 부터? 순서 정보가 생김
 for i, k in enumerate(classmate):
     print(i, k, classmate[k])
+
+
+a = "대전 스타벅스 0422836212"
+print("-=--------------------------")
+print(a[-5:])
