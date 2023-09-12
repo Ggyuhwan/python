@@ -2,6 +2,7 @@ import pandas as pd
 from konlpy.tag import Okt
 from collections import Counter
 from wordcloud import WordCloud
+
 # pip install wordcloud
 # pip install konlpy # 한국어 자연어 처리 관련 라이브러리
 okt = Okt()

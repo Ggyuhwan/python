@@ -12,7 +12,7 @@ chromedriver_autoinstaller.install()
 url = 'https://www.starbucks.co.kr/store/store_map.do'
 
 def fn_search_map():
-    print('스타 벅스')
+    # print('스타 벅스')
     driver = webdriver.Chrome()
 
     driver.get(url)
