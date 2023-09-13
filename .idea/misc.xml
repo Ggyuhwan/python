@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="Black">
+    <option name="executionMode" value="BINARY" />
+    <option name="pathToExecutable" value="C:\dev\anaconda\Scripts\black.exe" />
+    <option name="sdkUUID" value="991c1567-047c-4152-bd1a-7b288e2df679" />
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="bigdata" project-jdk-type="Python SDK" />
   <component name="PyCharmProfessionalAdvertiser">
     <option name="shown" value="true" />

@@ -1,9 +1,7 @@
 # pip install xlsxwriter
 # 엑셀 생성 라이브러리
 import xlsxwriter
-ex_data = [[1,2,3]
-           ,[4,5,6]
-           ,[7,8,9]]
+ex_data = [[1]]
 # 새 엑셀 파일과 워크시트 생성
 workbook = xlsxwriter.Workbook("test.xlsx")
 worksheet = workbook.add_worksheet()
